@@ -1,0 +1,10 @@
+---
+import astroLogo from '../assets/astro.svg';
+import background from '../assets/background.svg';
+import { FormComponent } from "@/components/Form";
+---
+
+<div class="max-w-6xl mx-auto border border-gray-300 rounded-lg p-8 bg-white shadow-md relative">
+	<h1 class="text-2xl font-bold">✅ Some Proposed Topics We Can Cover (Check All That Apply):</h1>
+	<FormComponent client:load />
+</div>

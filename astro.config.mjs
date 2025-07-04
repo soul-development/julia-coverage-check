@@ -3,9 +3,15 @@ import { defineConfig } from 'astro/config';
 
 import react from '@astrojs/react';
 
+import tailwindcss from '@tailwindcss/vite';
+
 // https://astro.build/config
 export default defineConfig({
   site: 'https://soul-development.github.io',
   base: 'julia-coverage-check',
-  integrations: [react()]
+  integrations: [react()],
+
+  vite: {
+    plugins: [tailwindcss()]
+  }
 });
