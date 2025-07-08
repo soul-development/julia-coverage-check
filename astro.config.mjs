@@ -7,8 +7,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://soul-development.github.io',
-  base: 'julia-coverage-check',
+  site: "https://survey.juliabarinova.com",
   integrations: [react()],
 
   vite: {
