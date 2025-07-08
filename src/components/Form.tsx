@@ -40,7 +40,7 @@ export const FormComponent = () => {
   return (
     <Form {...form}>
       <form
-        className="flex flex-col gap-4 mt-8"
+        className="flex flex-col gap-6 mt-8"
         onSubmit={handleSubmit(onSubmit)}>
           {isSubmitting && <div className="absolute left-0 top-0 w-full h-full bg-white/70 z-10 animate-pulse"></div>}
           {isSubmitSuccessful && <div className="absolute left-0 top-0 w-full h-full rounded-lg bg-white/70 z-10 backdrop-blur-md">
